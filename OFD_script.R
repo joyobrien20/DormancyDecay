@@ -115,5 +115,22 @@ plot(active_OFD_valonly)
 
 # trial
 
-
 test <- MOStest(log(active), , family=quasipoisson())
+
+# Trying different avenues of data visualization before jumping in 
+
+# Looking at QB handouts/lectures: 
+# Spatial abundance distribution
+
+s.list <- rnorm(1000)
+str(PondsPA_active_t)
+
+# Let's see if the data is normally distributed
+
+# Let's perform a pearson correlation 
+
+# Let's do a linear regression 
+
+# Let's run a mantel test between the two species 
+
+# Attempt PROCRUSTES
